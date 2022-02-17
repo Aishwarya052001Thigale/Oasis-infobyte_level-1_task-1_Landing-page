@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Testimonials</title>
+    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway',sans-serif;
+    }
+    
+    #testimonials{
+        background-color: #fafbfc;
+        padding: 5rem 0;
+    }
+
+    .container_2{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .testimonials_top,
+    testimonials_container{
+        padding: 0 1rem;
+
+    }
+
+    .testimonials_top{
+        text-align: center;
+    }
+
+    .testimonials_top h1{
+        font-size: 2rem;
+        color: #071e55;
+        margin: 1rem;
+        list-style: 2rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .testimonials_top p{
+        color: #7c8595;
+        font-size: 1.1rem;
+    }
+
+    .testimonial_item img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
+        z-index: 99;
+    }
+
+    .testimonialItem_info{
+        background-color: #fff;
+        padding: 5.5rem 2rem 2rem 2rem;
+        margin: -4rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
+    }
+
+    .testimonial_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .testimonials_container{
+        display: flex;
+        gap: 10rem;
+        margin-top: 2rem;
+    }
+
+    .testimonialItem_info p{
+        color: #7c8595;
+        font-style: italic;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .testimonialItem_info h6{
+        color: #1e90ff;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .testimonialItem_rating{
+        text-align: center;
+        color: #fdcc28;
+    }
+
+    @media(max-width: 768px) {
+        .testimonials_container{
+        flex-direction: column;
+    }
+    }
+    </style>
+</head>
+<body>
+    <section id="testimonials">
+       <div class="container_2">
+           <!---top--->
+            <div class="testimonials_top">
+                <h1>Clients Testimonials</h1>
+                 <p>What They're Saying</p>
+            </div>
+            <div class="testimonials_container">
+            <!--single testimonial-->
+           <div class="testimonial_item">
+               <img src="img/Avatar.jpeg" alt="">
+
+               <div class="testimonialItem_info">
+                   <p>The attention of a traveller,should be particularly
+                        turned to the various works of nature
+                    </p>
+
+                    <h6>Emily Richard-Copywriter</h6>
+
+                    <div class="testimonialItem_rating">
+                      <i class="fas fa-star">✨</i>
+                      <i class="fas fa-star">✨</i>
+                      <i class="fas fa-star">✨</i>
+                      <i class="fas fa-star">✨</i>
+                      <i class="fas fa-star">✨</i>
+                    </div>
+               </div>
+           </div>
+
+           <!--single testimonial-->
+           <div class="testimonial_item">
+            <img src="img/Avatar.jpeg" alt="">
+
+            <div class="testimonialItem_info">
+                <p>The attention of a traveller,should be particularly
+                     turned to the various works of nature
+                 </p>
+
+                 <h6>John Doe-General Manager</h6>
+
+                 <div class="testimonialItem_rating">
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                 </div>
+            </div>
+        </div>
+
+        <!--single testimonial-->
+        <div class="testimonial_item">
+            <img src="img/Avatar.jpeg" alt="">
+
+            <div class="testimonialItem_info">
+                <p>The attention of a traveller,should be particularly
+                     turned to the various works of nature
+                 </p>
+
+                 <h6>Jani Smith-Web Designer</h6>
+
+                 <div class="testimonialItem_rating">
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                   <i class="fas fa-star">✨</i>
+                 </div>
+            </div>
+        </div>
+            </div>
+       </div>
+    </section>
+</body>
+</html>
